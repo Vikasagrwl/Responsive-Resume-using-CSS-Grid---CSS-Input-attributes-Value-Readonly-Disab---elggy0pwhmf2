@@ -1,35 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">        
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Resume</title>
-        
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    </head>
-    <body>
-        <main class="main-content" contenteditable="true">
-            <section class="left-section">
-                 <div class="left-content">
-                    <!-- Write code for the left section here -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile-details">
+                    <img class="profile-image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="photo">
+                    <h2 class="name">Vikas</h2>
+                    <h4 class="designation">SDE1</h4>
+                    <p class="description">
+                        Frontend|React|JS
+                    </p>
                 </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="social-media">
+                            <li type="none" class="icon"><a href="https://github.com/Vikasagrwl"><img src="github.svg" alt="github"></a></li>
+                            <li type="none" class="icon"><a href="https://www.linkedin.com/feed/"><img src="linkedin.svg" alt="linkedin"></a></li>
+                            <li type="none" class="icon"><a href="https://www.instagram.com/"><img src="instagram.svg" alt="instagram"></a></li>
+                            <li type="none" class="icon"><a href="https://twitter.com/home"><img src="twitter.svg" alt="twitter"></a></li>                           
+                        </div>
+                        <div class="personal-details">
+                            <li type="none" class="icon"><img src="email.svg" alt="email"><a href="mailto: vikasagrwl97@gmail.com">vikasagrwl97@gmail.com</a></li>
+                            <li type="none" class="icon"><img src="map.svg" alt="location"><a href="https://goo.gl/maps/B2LWJzd5aL2YJ8xeA">Dinod Road, Bhiwani, Haryana(127021)</a></li>
+                            <li type="none" class="icon"><img src="phone.svg" alt="phone"><a href="tel: 740-439-0666">+917404390666</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h2 class="skills-title">Skills</h2>
+                    <div class="skills-content">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%;">
+                                    <!-- <progress max="100" value="85"></progress> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%;">
+                                    <!-- <progress max="100" value="85"></progress> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>JS</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%;">
+                                    <!-- <progress max="100" value="75"></progress> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>React</h3>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 60%;">
+                                    <!-- <progress max="100" value="70"></progress> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
             </div>
-            </section>
-
-            <section class="right-section"> 
-                <div class="right-main-content">
-                    
-                    <!-- Write code for the right section here -->
-                </div>
-            </section>
-        </main>
-    </body>
-</html> 
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+                <section class="about sect">
+                    <h2 class="right-title">About Me</h2>
+                    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis accusantium dolorum itaque quidem, enim sapiente autem, quas cum expedita vitae sit delectus dicta pariatur aperiam est. Vitae quo perspiciatis voluptatem!</p>
+                </section>
+                <section class="education sect">
+                    <h2 class="right-title">Education</h2>
+                    <div class="education-content">
+                        <h3 class="post-graduate">Masters in Computer Science</h3>
+                        <div class="education-content">
+                            M.Sc. in Computer Science from CBLU (2019-2021).
+                        </div>
+                        <h3 class="graduation">Bechelors in Computer Science</h3>
+                        <div class="education-content">
+                            B.Sc. in Computer Science from Vaish College Bhiwani (2015-2019).
+                        </div>
+                    </div>
+                </section>
+                <section class="experience sect">
+                    <h2 class="right-title">Experience</h2>
+                    <div class="experience-content">
+                        <h3 class="gawar-construction">Purchase Manager</h3>
+                        <div class="experience-content">
+                            Worked as an all india purchase manager for steel in Gawar Construction Limited from oct-2021 to sept-2022. 
+                        </div>
+                        <h3 class="aggarwal-computers">Hardware and Networking Engineer</h3>
+                        <div class="experience-content">
+                            Worked as an hardware and networking engineer with Aggarwal Computers, Bhiwani from march-2019 to sept-2021.
+                        </div>
+                    </div>
+                </section>
+                <section class="Projects"></section>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
